@@ -1,5 +1,12 @@
 # PatternMatching
 
+### Features
+- Match and replace patterns in a file
+- Wildcard support in match pattern and replace pattern
+- Toggleable overlap matching (disabled by default [slow]: pattern = aaaaa, match aa => 4 results with overlap, 2 without)
+- Create config files with multiple patterns
+
+### Usage
 ```
 Arguments
 
