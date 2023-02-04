@@ -9,6 +9,6 @@ Arguments
 -o                                 | (Optional)Match Patterns with overlap
 
 Example Usage:
-PatternMatching.exe -f owo.txt -c config.ini
+PatternMatching.exe -f owo.txt -c config.txt
 PatternMatching.exe -f owo.txt -p "01 02 03:02 03 04"
 ```
