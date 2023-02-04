@@ -1,0 +1,8 @@
+# This is an example config
+# 31 32 33 34 : 32 33 34 35
+# Split your patterns with ':'
+# Match Pattern : Replace Pattern
+# Wildcards will increase time usage
+# 31 ?? 33 34 : 32 33 34 35
+# Wildcards in replace pattern will keep the original data
+# 31 ?? 33 ?? : 32 33 34 ??
