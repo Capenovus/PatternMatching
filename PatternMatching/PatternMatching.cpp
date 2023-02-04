@@ -4,7 +4,7 @@
 #include <string>
 
 using namespace std;
-const string USAGE = "Arguments\n\n-f file                            | file to match in\n-c file                            | load pattern config file\n-p matchpattern:replacepattern     | match and replace pattern\n-o                                 | (Optional)Match Patterns with overlap\n\nExample Usage:\nPatternMatching.exe -f owo.txt -c config.ini\nPatternMatching.exe -f owo.txt -p \"01 02 03:02 03 04\"";
+const string USAGE = "Arguments\n\n-f file                            | file to match in\n-c file                            | load pattern config file\n-p matchpattern:replacepattern     | match and replace pattern\n-o                                 | (Optional)Match Patterns with overlap\n\nExample Usage:\nPatternMatching.exe -f owo.txt -c config.txt\nPatternMatching.exe -f owo.txt -p \"01 02 03:02 03 04\"";
 
 void fail(string reason="")
 {
